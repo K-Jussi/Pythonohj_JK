@@ -17,6 +17,7 @@ for rivi in lista:
     paiva = jako[5]
     kk = jako[4]
     vuosi = jako[3]
+
     katenum = int(jako[7]) - 1
 
     print(f"Valmistaja: {merkki}\nNimi ja Malli: {nimi}({malli})\nKategoria: {kategoriat[katenum]}\nLisäyspäivämäärä: {paiva}.{kk}.{vuosi}\n")
